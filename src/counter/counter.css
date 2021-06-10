@@ -1,0 +1,45 @@
+.counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+    width: 92px;
+    height: 39px;
+    overflow: hidden;
+}
+
+.inc, .dec {
+    height: 39px;
+    border: none;
+    outline: 0;
+    background-color: #E2E9F0;
+    font-size: 20px;
+}
+
+.inc {
+    margin-left: -12px;
+    border-radius: 30px;
+}
+
+.dec {
+    margin-right: -10px;
+    border-radius: 30px;
+}
+
+.count-dig {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 39px;
+    background-color: #E2E9F0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #2C2C2C;
+    z-index: 3;
+}

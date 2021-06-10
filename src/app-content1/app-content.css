@@ -1,0 +1,125 @@
+.item {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 10px 0 auto 10px;
+    width: 573px;
+    height: 707px;
+    background: #F8FAFC;
+    border-radius: 25px;
+}
+
+.item-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.new-item {
+    width: 71px;
+    height: 26px;
+    margin-top: 54px;
+    margin-left: 30px;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 30px;
+}
+
+.item-image {
+    width: 256px;
+    border-radius: 25px;
+    margin-top: 53px;
+}
+
+.compare-image {
+    margin-top: 43px;
+}
+
+.item-name {
+    width: 385px;
+    height: 29px;
+    margin: 25px auto 0 auto;
+
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.item-description {
+    width: 483px;
+    height: 72px;
+    margin: 10px auto 20px auto;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #2C2C2C;
+}
+
+.css-yk16xz-control,
+.css-1pahdxg-control {
+    width: 258px;
+    margin-right: 50px;
+
+}
+
+.select-color {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.item-price {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000000;
+}
+
+.menu-bottom {
+    display: flex;
+    
+}
+
+.cart {
+    width: 300px;
+    height: 39px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.cart:hover {
+    background: linear-gradient(261.65deg, #ffcd50 -3.95%, #ffc83c 109.44%);
+}
